@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Template Portfolio">
+    <title>Webku </title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navbar -->
+        <nav>
+            <div class="logo">[Nama/Logo]</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <!-- 1. Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Halo, saya <br><span style="color: var(--accent-color);">Fazrul Ikhwan</span></h1>
+                <h2>Student Devoloper|Pelajar yang tertarik dengan Design & Web Devolopment</h2>
+                <a href="#" class="btn btn-primary">Download CV</a>
+            </div>
+            <div class="hero-image">
+                <!-- Tempat siswa memasukkan tag <img> nantinya -->
+                <div class="hero-image">
+                    <img src="foto.jpg" alt="Foto profil saya">
+                </div>
+                </div>
+            </div>
+        </section>
+      
+        <!-- 2. Featured Projects -->
+        <section id="projects">
+            <h2 class="section-title">Featured <span>Projects</span></h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <h3 class="project-title">Portofolio</h3>
+                    <p class="project-desc">
+                        <strong>Masalah:</strong> Saya membutuhkan sebuah website unutk memperkenalkan diri dan menampilkan kemampuan serta project yang saya buat<br>
+                        <strong>Solusi:</strong> Saya membuat website Portofolio pribadi saya unntuk menampilkan profil,skill,pengalaman,dan project saya
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">VS Code</span>
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-primary" style="padding: 8px 16px; font-size: 0.9rem;">Live Demo</a>
+                        <a href="#" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.9rem;">Repository</a>
+                    </div>
+                </div>
+                 <!-- Project 2 -->
+                 <div class="project-card">
+                    <h3 class="project-title">E-Commerce</h3>
+                    <p class="project-desc">
+                        <strong>Masalah:</strong> Pengguna membutuhkan platfrom online untuk melihat dan membeli product dengan mudah?<br>
+                        <strong>Solusi:</strong> Dengan ini pengguna dapat mencari product berkuliatas dan melakukan pembelian secara online 
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Laravel</span>
+                        <span class="tech-tag">Vue.js</span>
+                        <span class="tech-tag">Tailwind Css</span>
+                        <span class="tech-tag">Java Script</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-primary" style="padding: 8px 16px; font-size: 0.9rem;">Live Demo</a>
+                        <a 
+                        href="https://github.com/betbagus903-lang/vesto"
+                        target="_blank"
+                        class="btn btn-secondary">
+                        Repository
+                    </a>
+                        
+                    </div>
+                </div>
+                <!-- Project 2 & 3 disembunyikan untuk ringkas, lihat kode asli -->
+            </div>
+        </section>
+
+        <!-- 3. Tech Stack & Skills -->
+        <section id="skills">
+            <h2 class="section-title">Tech Stack & <span>Skills</span></h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Web Devolopment</h3>
+                    <ul class="skill-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Design</h3>
+                    <ul class="skill-list">
+                        <li>UI/UX Design</li>
+                        <li>Web Design</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Experience & Milestones -->
+        <section id="experience">
+            <h2 class="section-title">Experience & <span>Milestones</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Student Web Devoloper</h3>
+                        <span class="timeline-date">Personal Project| 2026</span>
+                        <p>Mengembangkan website untuk meningkat kan kemampuan dalam Web Devolopment serta mengeskplorasi minat saya di bidang desain</p>
+                        <ul>
+                            <li>Membuat struktur website menggunakan HTML dan CSS</li>
+                            <li>Membangun sistem webiste E-Commerce full stack backend & fronted dengan memanfaatkan bantuan AI</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. About Me -->
+        <section id="about">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <p>
+                    Saya adalah Seorang Siswa di SMK Swasta Mandiri saya memiliki minat di bidang pengembangan dan desain,saya senang meningkatkan ketertarikan saya untuk mempelajari hal-hal dan dapat berkembang dalam perkembangan teknolgi 
+                </p>
+            </div>
+        </section>
+
+        <!-- 6. Contact & Footer -->
+        <section id="contact" style="padding-bottom: 0;">
+            <div class="contact">
+                <h2 class="section-title" style="margin-bottom: 1rem;">Get in <span>Touch</span></h2>
+                <form class="contact-form">
+                    <input type="text" placeholder="Nama Anda" required>
+                    <input type="email" placeholder="Email Anda" required>
+                    <textarea placeholder="Tulis pesan Anda di sini..." required></textarea>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Kirim Pesan</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Fazrul Ikhwan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
