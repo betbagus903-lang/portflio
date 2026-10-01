@@ -152,25 +152,14 @@ section {
 }
 
 .hero-image img {
+    display: block;
     width: 100%;
     max-width: 400px;
+    height: auto;
     border-radius: 8px;
     border: 1px solid var(--border-color);
     background-color: var(--surface-color);
-}
-
-.image-placeholder {
-    width: 100%;
-    max-width: 400px;
-    aspect-ratio: 1 / 1;
-    border-radius: 8px;
-    border: 2px dashed var(--border-color);
-    background-color: var(--bg-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--text-secondary);
-    font-weight: 600;
+    object-fit: cover;
 }
 
 /* 2. Featured Projects */
